@@ -44,21 +44,21 @@
         var olVersion="74"
 
         function selectwls() {
-            var wlsVersion = document.getElementById("wlsversion").value;
+            wlsVersion = document.getElementById("wlsversion").value;
             document.getElementById("owi").innerHTML = "owls-"+wlsVersion+"-"+javaVersion+"-ol"+olVersion;
             document.getElementById("owipn").innerHTML = "weblogic-"+wlsVersion+"-jdk"+javaVersion+"-ol"+olVersion+"-preview";
             document.getElementById("owin").innerHTML = "weblogic-"+wlsVersion+"-jdk"+javaVersion+"-ol"+olVersion;
         }
 
         function selectjava(){
-            var javaVersion = document.getElementById("javaversion").value;
+            javaVersion = document.getElementById("javaversion").value;
             document.getElementById("owi").innerHTML = "owls-"+wlsVersion+"-"+javaVersion+"-ol"+olVersion;
             document.getElementById("owipn").innerHTML = "weblogic-"+wlsVersion+"-jdk"+javaVersion+"-ol"+olVersion+"-preview";
             document.getElementById("owin").innerHTML = "weblogic-"+wlsVersion+"-jdk"+javaVersion+"-ol"+olVersion;
         } 
 
         function selectol(){
-            var olVersion = document.getElementById("olversion").value;
+            olVersion = document.getElementById("olversion").value;
             document.getElementById("owi").innerHTML = "owls-"+wlsVersion+"-"+javaVersion+"-ol"+olVersion;
             document.getElementById("owipn").innerHTML = "weblogic-"+wlsVersion+"-jdk"+javaVersion+"-ol"+olVersion+"-preview";
             document.getElementById("owin").innerHTML = "weblogic-"+wlsVersion+"-jdk"+javaVersion+"-ol"+olVersion;
